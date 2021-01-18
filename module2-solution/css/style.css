@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: #eee;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 1.75em;
+}
+
+.title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.container {
+  margin: 1rem 0.5rem;
+}
+
+.col {
+  color: #fafafa;
+  float: left;
+  padding: 1rem;
+  width: calc(100% / 3);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col {
+    width: calc(100% / 2);
+  }
+  .col:nth-last-child(1) {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .col {
+    width: 100%;
+  }
+}
+.col .content {
+  background-color: #506e86;
+  position: relative;
+}
+.col p {
+  clear: both;
+  padding: 1rem;
+}
+
+.s-title {
+  color: #000;
+  float: right;
+  font-size: 1.25em;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 1%;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+.s-border {
+  border: solid 1px black;
+}
+
+.bg-green {
+  background-color: #a3ddcb;
+}
+
+.bg-orange {
+  background-color: #ff7e67;
+}
+
+.bg-yellow {
+  background-color: #f8dc81;
+}
+
+/*# sourceMappingURL=style.css.map */
